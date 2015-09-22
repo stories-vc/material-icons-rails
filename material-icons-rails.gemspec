@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
 
-  spec.files         = Dir["{lib,app}/**/*"] + ["README.md"]
+  spec.files         = Dir["{lib,vendor}/**/*"] + ["README.md"]
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
