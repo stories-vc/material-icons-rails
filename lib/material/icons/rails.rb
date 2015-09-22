@@ -3,7 +3,8 @@ require "material/icons/rails/version"
 module Material
   module Icons
     module Rails
-      # Your code goes here...
+      class Engine < ::Rails::Engine
+    	end
     end
   end
 end
