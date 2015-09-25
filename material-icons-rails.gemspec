@@ -5,7 +5,7 @@ require 'material_icons/rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "material-icons-rails"
-  spec.version       = Material::Icons::Rails::VERSION
+  spec.version       = MaterialIcons::Rails::VERSION
   spec.authors       = ["Qiuhao"]
   spec.email         = ["zzborn1022@gmail.com"]
 
