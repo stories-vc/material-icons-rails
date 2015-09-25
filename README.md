@@ -1,4 +1,4 @@
-# Material::Icons::Rails
+# material-icons-rails
 
 ## Installation
 
