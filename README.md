@@ -1,9 +1,5 @@
 # Material::Icons::Rails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/material/icons/rails`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -22,7 +18,40 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Require
+
+Just require `material_icons` using sprockets in any stylesheet.
+
+### Helpers
+
+CURRENTLY NOT SUPPORTED
+
+```ruby
+material_icon('icon_name')
+```
+
+Will generate:
+
+```html
+<i class="material-icons">icon_name</i>
+```
+
+### Icons List
+
+Check out the official google design site for the whole list of icons: [Material icons](https://www.google.com/design/icons/)
+
+### Font Version
+
+Currently version of material-icons font in this gem is `2.0.0`, which is the latest stable one.
+
+Feel free to submit an issue or a PR to update the font.
+
+### Font Formats and Compatibility
+
+We use the [officially recommended stylesheet snippet](http://google.github.io/material-design-icons/#icon-font-for-the-web
+) to include the font, including formats eot, woff2, woff, and truetype.
+
+Compatible with even IE 6.
 
 ## Development
 
@@ -32,5 +61,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/material-icons-rails.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/zzborn1022/material-icons-rails.
