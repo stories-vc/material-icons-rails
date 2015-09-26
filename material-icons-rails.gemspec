@@ -1,25 +1,21 @@
-# coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'material_icons/rails/version'
+# -*- encoding: utf-8 -*-
+require File.expand_path('../lib/material-icons-rails/version', __FILE__)
 
-Gem::Specification.new do |spec|
-  spec.name          = "material-icons-rails"
-  spec.version       = MaterialIcons::Rails::VERSION
-  spec.authors       = ["Qiuhao"]
-  spec.email         = ["zzborn1022@gmail.com"]
+Gem::Specification.new do |gem|
+  gem.authors       = ["Qiuhao"]
+  gem.email         = ["zzborn1022@gmail.com"]
+  gem.description   = "Material Icons designed by Google"
+  gem.summary       = "Material Icons"
+  gem.homepage      = "https://github.com/zzborn1022/material-icons-rails"
 
-  spec.summary       = %q{Material Icons}
-  spec.homepage      = "https://github.com/zzborn1022/material-icons-rails"
-
-  # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
-  # delete this section to allow pushing this gem to any host.
-
-  spec.files         = Dir["{lib,vendor}/**/*"] + ["README.md"]
-  spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
-
-  spec.add_development_dependency "bundler", "~> 1.10"
-  spec.add_development_dependency "rake", "~> 10.0"
+  gem.files         = Dir["{vendor,lib}/**/*"] + ["README.md"]
+  gem.name          = "material-icons-rails"
+  gem.require_paths = ["lib"]
+  gem.version       = MaterialIcons::Rails::VERSION
+  
+  gem.add_dependency "railties", ">= 3.2", "< 5.0"
+  
+  gem.add_development_dependency "sass-rails"
+  gem.add_development_dependency "bundler", "~> 1.10"
+  gem.add_development_dependency "rake", "~> 10.0"
 end

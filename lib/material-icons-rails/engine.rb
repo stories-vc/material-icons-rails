@@ -1,5 +1,6 @@
 module MaterialIcons
   module Rails
-    VERSION = "0.1.4"
+    class Engine < ::Rails::Engine
+    end
   end
 end
