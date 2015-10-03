@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.summary       = "Material Icons helper for Rails"
   gem.homepage      = "https://github.com/zzborn1022/material-icons-rails"
 
-  gem.files         = Dir["{vendor,lib}/**/*"] + ["README.md"]
+  gem.files         = Dir["{app,lib}/**/*"] + ["README.md"]
   gem.name          = "material-icons-rails"
   gem.require_paths = ["lib"]
   gem.version       = MaterialIcons::Rails::VERSION
