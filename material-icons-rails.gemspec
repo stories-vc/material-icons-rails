@@ -4,8 +4,8 @@ require File.expand_path('../lib/material-icons-rails/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Qiuhao"]
   gem.email         = ["zzborn1022@gmail.com"]
-  gem.description   = "Material Icons designed by Google"
-  gem.summary       = "Material Icons"
+  gem.description   = "Material Icons helper for Rails"
+  gem.summary       = "Material Icons helper for Rails"
   gem.homepage      = "https://github.com/zzborn1022/material-icons-rails"
 
   gem.files         = Dir["{vendor,lib}/**/*"] + ["README.md"]

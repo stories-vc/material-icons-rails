@@ -1,5 +1,6 @@
 module MaterialIcons
   module Rails
-    VERSION = "0.1.5"
+    MATERIAL_ICONS_VERSION = "2.0.0"
+    VERSION = "0.2.0"
   end
 end
